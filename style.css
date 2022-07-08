@@ -7,7 +7,14 @@ main {
 }
 
 h1 {
-  color: #32F5C8;
-  font-family: 'Sen', sans-serif;
+  color: #32f5c8;
+  font-family: "Sen", sans-serif;
+}
 
-
+button {
+  height: 77px;
+  width: 301px;
+  background: #32f5c8;
+  color: #013243;
+  font-family: "Inter", sans-serif;
+}
