@@ -11,6 +11,11 @@ h1 {
   font-family: "Sen", sans-serif;
 }
 
+p {
+  color: #a9bdc6;
+  font-family: "Inter", sans-serif;
+}
+
 button {
   height: 77px;
   width: 301px;
