@@ -15,11 +15,13 @@ header {
 h1 {
   color: #32f5c8;
   font-family: "Sen", sans-serif;
+  font-size: 55px;
 }
 
 p {
   color: #a9bdc6;
   font-family: "Inter", sans-serif;
+  font-size: 24px;
 }
 
 button {
