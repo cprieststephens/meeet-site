@@ -25,9 +25,13 @@ p {
 button {
   height: 77px;
   width: 301px;
+  border-radius: 5px;
+  border-style: none;
   background: #32f5c8;
   color: #013243;
   font-family: "Inter", sans-serif;
+  font-size: x-large;
+  font-weight: bolder;
 }
 
 footer {
