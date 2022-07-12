@@ -85,3 +85,20 @@ footer {
   margin-right: 15px;
   margin-left: 15px;
 }
+
+/*Code for media queries found here on 12.07.22: https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  main {
+    height: 100%;
+    width: 100%;
+    background: yellow;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    height: 100%;
+    width: 100%;
+    background: red;
+  }
+}
