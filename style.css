@@ -103,10 +103,19 @@ footer {
   h1 {
     font-size: 75px;
     margin-left: 40px;
+    margin-top: 50px;
   }
 
   #photo1 {
     height: 137px;
+    margin-bottom: 0;
+    margin-top: -20px;
+  }
+
+  #photo2 {
+    margin-left: 370px;
+    margin-bottom: 0;
+    margin-top: -90px;
   }
 
   #description {
@@ -115,17 +124,16 @@ footer {
 
   button {
     margin-left: 40px;
-    margin-top: 70px;
+    margin-top: 90px;
   }
 
   #photo3 {
     height: 249px;
     margin-right: -200px;
-    margin-top: 50px;
   }
 
   footer {
-    margin-top: -5px;
+    margin-top: -40px;
   }
 
   #twitter {
