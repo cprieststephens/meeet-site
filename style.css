@@ -88,6 +88,17 @@ footer {
 }
 
 /*Code for media queries found here on 12.07.22: https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
+@media only screen and (max-width: 600px) {
+  #photo4 {
+    display: none;
+  }
+
+  #photo5 {
+    display: none;
+  }
+}
+
+/*Code for media queries found here on 12.07.22: https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
 @media only screen and (min-width: 600px) and (max-width: 767px) {
   main {
     height: 1024px;
