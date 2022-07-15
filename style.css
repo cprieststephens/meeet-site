@@ -76,6 +76,12 @@ button {
   margin-left: 210px;
 }
 
+/*#photo5 {
+  height: 190px;
+  margin-top: -30px;
+  margin-left: 210px;
+}*/
+
 footer {
   display: flex;
   flex-direction: row;
@@ -93,9 +99,17 @@ footer {
     display: none;
   }
 
+  /*#photo3 {
+    display: none;
+  }*/
+
   #photo5 {
     display: none;
   }
+
+  /*#photo4 {
+    display: none;
+  }*/
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
@@ -137,11 +151,23 @@ footer {
     grid-column: 1 / 1;
   }
 
+  /*#photo3 {
+    height: 124px;
+    grid-row: 1 / 3;
+    grid-column: 1 / 1;
+  }*/
+
   #photo5 {
     height: 119px;
     grid-row: 3 / 5;
     grid-column: 2 / 2;
   }
+
+  /*#photo4 {
+    height: 119px;
+    grid-row: 3 / 5;
+    grid-column: 2 / 2;
+  }*/
 
   h1 {
     font-size: 95px;
@@ -164,6 +190,11 @@ footer {
     margin-right: -200px;
   }
 
+  /*#photo5 {
+    height: 249px;
+    margin-right: -200px;
+  }*/
+
   footer {
     margin-top: -40px;
   }
@@ -178,5 +209,26 @@ footer {
     height: 100%;
     width: 100%;
     background: red;
+  }
+
+  header {
+    padding-top: 30px;
+    margin-left: 125px;
+  }
+
+  #photo2 {
+    margin-left: 800px;
+  }
+
+  h1 {
+    font-size: 135px;
+    margin-top: -215px;
+    margin-left: 125px;
+  }
+
+  #description,
+  button,
+  footer {
+    margin-left: 125px;
   }
 }
