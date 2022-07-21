@@ -96,6 +96,10 @@ footer {
   #photo5 {
     display: none;
   }
+
+  #photo6 {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
@@ -120,10 +124,6 @@ footer {
     margin-left: 370px;
     margin-bottom: 0;
     margin-top: -90px;
-  }
-
-  #photo3 {
-    height: 41px;
   }
 
   /*Syntax for grid layout found here on 14.07.22: https://www.w3schools.com/css/css_grid.asp*/
@@ -154,6 +154,7 @@ footer {
   }
 
   #description {
+    width: 460px;
     margin-top: 20px;
     margin-left: 40px;
   }
@@ -164,21 +165,28 @@ footer {
   }
 
   #photo3 {
-    height: 249px;
-    margin-right: -200px;
+    height: 141px;
+    margin-right: -165px;
+    margin-top: -290px;
   }
 
-  /*#photo5 {
-    height: 249px;
-    margin-right: -200px;
-  }*/
+  #container4 {
+    display: flex;
+    flex-direction: row;
+  }
 
   footer {
-    margin-top: -40px;
+    margin-top: 320px;
   }
 
   #twitter {
     margin-left: 40px;
+  }
+
+  #photo6 {
+    height: 249px;
+    margin-top: 150px;
+    margin-left: 150px;
   }
 }
 
