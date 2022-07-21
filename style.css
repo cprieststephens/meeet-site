@@ -76,12 +76,6 @@ button {
   margin-left: 210px;
 }
 
-/*#photo5 {
-  height: 190px;
-  margin-top: -30px;
-  margin-left: 210px;
-}*/
-
 footer {
   display: flex;
   flex-direction: row;
@@ -99,17 +93,9 @@ footer {
     display: none;
   }
 
-  /*#photo3 {
-    display: none;
-  }*/
-
   #photo5 {
     display: none;
   }
-
-  /*#photo4 {
-    display: none;
-  }*/
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
@@ -136,6 +122,10 @@ footer {
     margin-top: -90px;
   }
 
+  #photo3 {
+    height: 41px;
+  }
+
   /*Syntax for grid layout found here on 14.07.22: https://www.w3schools.com/css/css_grid.asp*/
   #container3 {
     display: grid;
@@ -151,23 +141,11 @@ footer {
     grid-column: 1 / 1;
   }
 
-  /*#photo3 {
-    height: 124px;
-    grid-row: 1 / 3;
-    grid-column: 1 / 1;
-  }*/
-
   #photo5 {
     height: 119px;
     grid-row: 3 / 5;
     grid-column: 2 / 2;
   }
-
-  /*#photo4 {
-    height: 119px;
-    grid-row: 3 / 5;
-    grid-column: 2 / 2;
-  }*/
 
   h1 {
     font-size: 95px;
