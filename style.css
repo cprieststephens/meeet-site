@@ -242,6 +242,13 @@ footer {
     line-height: 1;
   }
 
+  #overlap {
+  }
+
+  #description {
+    width: 460px;
+  }
+
   #description,
   button,
   footer {
@@ -249,11 +256,14 @@ footer {
   }
 
   footer {
-    margin-top: -80px;
+    margin-top: 200px;
     margin-left: 115px;
   }
 
   #photo3 {
-    margin-left: 450px;
+    height: 141px;
+    margin-top: -285px;
+    /*margin-left: 80px;*/
+    margin-right: 285px;
   }
 }
