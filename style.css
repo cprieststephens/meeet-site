@@ -211,6 +211,28 @@ footer {
     margin-left: 800px;
   }
 
+  /*Syntax for grid layout found here on 14.07.22: https://www.w3schools.com/css/css_grid.asp*/
+  #container3 {
+    display: grid;
+    column-gap: 80px;
+    grid-template-columns: 125px 125px;
+    grid-template-rows: 125px 125px 125px;
+    margin-top: -75px;
+    margin-left: 800px;
+  }
+
+  #photo4 {
+    height: 124px;
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+  }
+
+  #photo5 {
+    height: 119px;
+    grid-row: 3 / 3;
+    grid-column: 2 / 2;
+  }
+
   h1 {
     font-size: 135px;
     margin-top: -215px;
