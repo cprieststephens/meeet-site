@@ -204,21 +204,23 @@ footer {
 
   #photo1 {
     margin-left: 30px;
+    padding: 0;
+    margin-bottom: -75px;
   }
 
   #photo2 {
     margin-top: -40px;
-    margin-left: 800px;
+    margin-left: 725px;
   }
 
   /*Syntax for grid layout found here on 14.07.22: https://www.w3schools.com/css/css_grid.asp*/
   #container3 {
     display: grid;
-    column-gap: 80px;
+    column-gap: 150px;
     grid-template-columns: 125px 125px;
     grid-template-rows: 125px 125px 125px;
     margin-top: -75px;
-    margin-left: 800px;
+    margin-left: 700px;
   }
 
   #photo4 {
@@ -235,8 +237,9 @@ footer {
 
   h1 {
     font-size: 135px;
-    margin-top: -215px;
+    margin-top: -325px;
     margin-left: 115px;
+    line-height: 1;
   }
 
   #description,
