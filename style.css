@@ -263,7 +263,17 @@ footer {
   #photo3 {
     height: 141px;
     margin-top: -285px;
-    /*margin-left: 80px;*/
     margin-right: 285px;
+  }
+
+  #container4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #photo6 {
+    margin-right: 400px;
+    margin-bottom: -100px;
   }
 }
