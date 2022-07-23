@@ -1,15 +1,14 @@
-main {
-  /*height: 896px;
-  width: 414px;*/
+html {
   background: #013243;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+/* Syntax for screen height found here on 23.07.22: https://www.freecodecamp.org/news/html-page-width-height/#:~:text=For%20a%20responsive%20full%20page%20height%2C%20set%20the,100%25%20over%20100vw%20to%20avoid%20surprise%20horizontal%20scrollbars.*/
+body {
+  min-height: 100vh;
+  margin: 0;
 }
 
 header {
-  padding-top: 15px;
-  margin-bottom: 30px;
-  margin-left: 15px;
 }
 
 #container1 {
@@ -103,12 +102,6 @@ footer {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
-  main {
-    /*height: 1024px;
-    width: 767px;*/
-    background: #013243;
-  }
-
   header {
     padding-top: 40px;
     margin-left: 40px;
@@ -166,7 +159,6 @@ footer {
 
   #photo3 {
     height: 141px;
-    /*margin-right: -300px*/
     margin-top: -290px;
     margin-left: 420px;
   }
@@ -192,12 +184,6 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-  main {
-    /*height: 900px;
-    width: 1440px;*/
-    background: #013243;
-  }
-
   header {
     padding-top: 30px;
     margin-left: 125px;
