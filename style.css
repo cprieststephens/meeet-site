@@ -1,6 +1,6 @@
 main {
-  height: 896px;
-  width: 414px;
+  /*height: 896px;
+  width: 414px;*/
   background: #013243;
   margin-left: auto;
   margin-right: auto;
@@ -104,9 +104,9 @@ footer {
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
   main {
-    height: 1024px;
-    width: 767px;
-    background: yellow;
+    /*height: 1024px;
+    width: 767px;*/
+    background: #013243;
   }
 
   header {
@@ -166,8 +166,9 @@ footer {
 
   #photo3 {
     height: 141px;
-    margin-right: -165px;
+    /*margin-right: -300px*/
     margin-top: -290px;
+    margin-left: 420px;
   }
 
   #container4 {
@@ -192,9 +193,9 @@ footer {
 
 @media only screen and (min-width: 768px) {
   main {
-    height: 900px;
-    width: 1440px;
-    background: red;
+    /*height: 900px;
+    width: 1440px;*/
+    background: #013243;
   }
 
   header {
@@ -263,7 +264,7 @@ footer {
   #photo3 {
     height: 141px;
     margin-top: -285px;
-    margin-right: 285px;
+    margin-right: 80px;
   }
 
   #container4 {
@@ -273,7 +274,6 @@ footer {
   }
 
   #photo6 {
-    margin-right: 400px;
-    margin-bottom: -100px;
+    margin-right: 150px;
   }
 }
