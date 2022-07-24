@@ -199,10 +199,11 @@ footer {
     height: 137px;
     margin-bottom: 0;
     margin-top: -20px;
+    margin-left: 30px;
   }
 
   #photo2 {
-    margin-left: 370px;
+    margin-left: 270px;
     margin-bottom: 0;
     margin-top: -90px;
   }
@@ -213,7 +214,7 @@ footer {
     column-gap: 30px;
     grid-template-columns: 125px 125px;
     grid-template-rows: 35px 35px 35px 35px 35px;
-    margin-left: 450px;
+    margin-left: 400px;
   }
 
   #photo4 {
@@ -248,7 +249,7 @@ footer {
   #photo3 {
     height: 141px;
     margin-top: -290px;
-    margin-left: 420px;
+    margin-left: 470px;
   }
 
   #container4 {
@@ -264,10 +265,14 @@ footer {
     margin-left: 40px;
   }
 
+  #follow {
+    white-space: nowrap;
+  }
+
   #photo6 {
     height: 249px;
     margin-top: 150px;
-    margin-left: 150px;
+    margin-left: 75px;
   }
 }
 
