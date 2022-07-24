@@ -5,10 +5,12 @@ html {
 /* Syntax for screen height found here on 23.07.22: https://www.freecodecamp.org/news/html-page-width-height/#:~:text=For%20a%20responsive%20full%20page%20height%2C%20set%20the,100%25%20over%20100vw%20to%20avoid%20surprise%20horizontal%20scrollbars.*/
 body {
   min-height: 100vh;
-  margin: 0;
+  /*margin: 0;*/
 }
 
 header {
+  margin-top: 15px;
+  margin-left: 15px;
 }
 
 #container1 {
@@ -17,19 +19,21 @@ header {
 }
 
 #container2 {
+  display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  padding-top: 50px;
 }
 
 #photo1 {
   height: 120px;
-  margin-bottom: -25px;
-  margin-left: 40px;
+  margin-left: -40px;
 }
 
 #photo2 {
   height: 173px;
   margin-bottom: -55px;
-  margin-left: 70px;
+  margin-right: 5px;
 }
 
 /* Syntx for z-index found here on 12.07.22: https://www.w3schools.com/cssref/pr_pos_z-index.asp*/
@@ -37,7 +41,7 @@ h1 {
   color: #32f5c8;
   font-family: "Sen", sans-serif;
   font-size: 55px;
-  margin-top: 0;
+  margin-top: -20px;
   margin-left: 15px;
   margin-bottom: 0px;
   z-index: 1;
