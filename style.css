@@ -365,28 +365,28 @@ footer {
 @media only screen and (min-width: 900px) {
   header {
     padding-top: 30px;
-    margin-left: 125px;
+    margin-left: 40px;
   }
 
   #photo1 {
-    margin-left: 30px;
+    margin-left: 0px;
     padding: 0;
-    margin-bottom: -75px;
+    margin-bottom: -20px;
   }
 
   #photo2 {
     margin-top: -40px;
-    margin-left: 725px;
+    margin-left: 500px;
   }
 
   /*Syntax for grid layout found here on 14.07.22: https://www.w3schools.com/css/css_grid.asp*/
   #container3 {
     display: grid;
-    column-gap: 150px;
+    column-gap: 75px;
     grid-template-columns: 125px 125px;
     grid-template-rows: 125px 125px 125px;
     margin-top: -75px;
-    margin-left: 700px;
+    margin-left: 550px;
   }
 
   #photo4 {
@@ -402,9 +402,9 @@ footer {
   }
 
   h1 {
-    font-size: 135px;
+    font-size: 120px;
     margin-top: -325px;
-    margin-left: 115px;
+    margin-left: 40px;
     line-height: 1;
   }
 
@@ -416,20 +416,20 @@ footer {
   }
 
   #description,
-  button,
-  footer {
-    margin-left: 125px;
+  button {
+    margin-left: 50px;
   }
 
   footer {
     margin-top: 200px;
-    margin-left: 115px;
+    margin-left: 45px;
   }
 
   #photo3 {
     height: 141px;
     margin-top: -285px;
-    margin-right: 80px;
+    /*margin-right: 80px;*/
+    margin-left: 350px;
   }
 
   #container4 {
@@ -439,6 +439,6 @@ footer {
   }
 
   #photo6 {
-    margin-right: 150px;
+    margin-right: 50px;
   }
 }
