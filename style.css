@@ -30,7 +30,6 @@ header {
   margin-right: 5px;
 }
 
-/* Syntx for z-index found here on 12.07.22: https://www.w3schools.com/cssref/pr_pos_z-index.asp*/
 h1 {
   color: #32f5c8;
   font-family: "Sen", sans-serif;
@@ -48,7 +47,7 @@ p {
 }
 
 #description {
-  margin-left: 15px;
+  padding-left: 15px;
   padding-top: 15px;
 }
 
@@ -198,10 +197,9 @@ footer {
     margin-left: 270px;
   }
 
-  /*Syntax for grid layout found here on 14.07.22: https://www.w3schools.com/css/css_grid.asp*/
   #container3 {
     display: grid;
-    column-gap: 30px;
+    column-gap: 10px;
     grid-template-columns: 125px 125px;
     grid-template-rows: 35px 35px 35px 35px 35px;
     margin-left: 400px;
@@ -283,7 +281,6 @@ footer {
     margin-left: 500px;
   }
 
-  /*Syntax for grid layout found here on 14.07.22: https://www.w3schools.com/css/css_grid.asp*/
   #container3 {
     display: grid;
     column-gap: 75px;
@@ -300,10 +297,10 @@ footer {
   }
 
   #photo5 {
-    /*height: 119px;
+    height: 119px;
     grid-row: 3 / 3;
-    grid-column: 2 / 2;*/
-    display: none;
+    grid-column: 2 / 2;
+    /*display: none;*/
   }
 
   h1 {
@@ -319,11 +316,10 @@ footer {
 
   #description {
     width: 460px;
+    margin-left: 45px;
   }
-
-  #description,
   button {
-    margin-left: 50px;
+    margin-left: 60px;
   }
 
   footer {
@@ -364,14 +360,13 @@ footer {
     margin-left: 700px;
   }
 
-  /*Syntax for grid layout found here on 14.07.22: https://www.w3schools.com/css/css_grid.asp*/
   #container3 {
     display: grid;
-    column-gap: 130px;
+    column-gap: 110px;
     grid-template-columns: 125px 125px;
     grid-template-rows: 125px 125px 125px;
     margin-top: -35px;
-    margin-left: 675px;
+    margin-left: 665px;
   }
 
   #photo4 {
