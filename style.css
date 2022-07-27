@@ -17,7 +17,7 @@ header {
   padding-top: 50px;
   padding-left: 20px;
   display: grid;
-  grid-template-columns: 40% 40%;
+  grid-template-columns: 50% 50%;
 }
 
 #photo1 {
@@ -82,6 +82,7 @@ footer {
 }
 
 #twitter {
+  max-width: 50px;
   margin-right: 15px;
   margin-left: 15px;
 }
@@ -128,11 +129,11 @@ footer {
     column-gap: 30px;
     grid-template-columns: 125px 125px;
     grid-template-rows: 35px 35px 35px 35px 35px;
-    margin-left: 450px;
+    margin-left: 400px;
   }
 
   #photo4 {
-    height: 124px;
+    width: 124px;
     grid-row: 1 / 3;
     grid-column: 1 / 1;
   }
@@ -142,14 +143,15 @@ footer {
   }
 
   h1 {
-    font-size: calc(4rem + 1vw);
+    font-size: calc(4.5rem + 1vw);
     font-weight: bold;
     margin-top: -125px;
     margin-left: 40px;
   }
 
   #description {
-    width: 460px;
+    width: 55%;
+    font-size: calc(1rem + 1vw);
     margin-top: 20px;
     margin-left: 40px;
   }
@@ -160,9 +162,9 @@ footer {
   }
 
   #photo3 {
-    height: 141px;
+    width: 130px;
     margin-top: -140px;
-    margin-left: 350px;
+    margin-left: 410px;
   }
 
   #container4 {
@@ -183,7 +185,7 @@ footer {
   }
 
   #photo6 {
-    height: 249px;
+    width: 249px;
     margin-top: 100px;
   }
 }
@@ -199,14 +201,14 @@ footer {
   }
 
   #photo1 {
-    height: 137px;
+    width: 137px;
     margin-top: -20px;
     margin-left: 30px;
   }
 
   #photo2 {
     margin-top: -90px;
-    margin-left: 270px;
+    margin-left: 140px;
   }
 
   #container3 {
@@ -218,39 +220,40 @@ footer {
   }
 
   #photo4 {
-    height: 124px;
+    width: 124px;
     grid-row: 1 / 3;
     grid-column: 1 / 1;
   }
 
   #photo5 {
-    height: 119px;
+    width: 119px;
     grid-row: 3 / 5;
     grid-column: 2 / 2;
   }
 
   h1 {
-    font-size: calc(5rem + 1vw);
+    font-size: calc(5.1rem + 1vw);
     font-weight: bold;
     margin-top: -125px;
     margin-left: 40px;
   }
 
   #description {
-    width: 460px;
+    width: 62.5%;
+    font-size: calc(1rem + 1vw);
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 35px;
   }
 
   button {
-    margin-left: 40px;
+    margin-left: 50px;
     margin-top: 50px;
   }
 
   #photo3 {
-    height: 141px;
-    margin-top: -290px;
-    margin-left: 470px;
+    width: 130px;
+    margin-top: -120px;
+    margin-left: 520px;
   }
 
   #container4 {
@@ -271,8 +274,8 @@ footer {
   }
 
   #photo6 {
-    height: 249px;
-    margin-top: 150px;
+    width: 249px;
+    margin-top: 120px;
     margin-left: 75px;
   }
 }
@@ -307,13 +310,13 @@ footer {
   }
 
   #photo4 {
-    height: 124px;
+    width: 124px;
     grid-row: 1 / 1;
     grid-column: 1 / 1;
   }
 
   #photo5 {
-    height: 119px;
+    width: 119px;
     grid-row: 3 / 3;
     grid-column: 2 / 2;
   }
@@ -343,7 +346,7 @@ footer {
   }
 
   #photo3 {
-    height: 141px;
+    width: 141px;
     margin-top: -285px;
     margin-left: 350px;
   }
@@ -385,21 +388,21 @@ footer {
   }
 
   #photo4 {
-    height: 124px;
+    width: 124px;
     grid-row: 1 / 1;
     grid-column: 1 / 1;
     margin-top: -65px;
   }
 
   #photo5 {
-    height: 119px;
+    width: 119px;
     grid-row: 3 / 3;
     grid-column: 2 / 2;
     margin-top: -55px;
   }
 
   h1 {
-    font-size: calc(7.5rem + 1vw);
+    font-size: calc(rem + 1vw);
     margin-top: -370px;
     margin-left: 95px;
     line-height: 1;
@@ -424,7 +427,7 @@ footer {
   }
 
   #photo3 {
-    height: 141px;
+    width: 141px;
     margin-top: -280px;
     margin-left: 135px;
   }
