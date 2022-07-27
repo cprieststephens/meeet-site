@@ -32,10 +32,11 @@ header {
   grid-column: 2 / 2;
 }
 
+/*Syntax for font-size found here on 27.07.22: https://blog.hubspot.com/website/responsive-text*/
 h1 {
   color: #32f5c8;
   font-family: "Sen", sans-serif;
-  font-size: 3.5rem;
+  font-size: calc(3rem + 1vw);
   font-weight: bold;
   margin-top: -35px;
   margin-left: 15px;
@@ -141,7 +142,7 @@ footer {
   }
 
   h1 {
-    font-size: 6rem;
+    font-size: calc(4rem + 1vw);
     font-weight: bold;
     margin-top: -125px;
     margin-left: 40px;
@@ -188,10 +189,9 @@ footer {
 }
 
 @media only screen and (min-width: 686px) and (max-width: 767px) {
-
   body {
     background: red;
-  } 
+  }
 
   header {
     padding-top: 40px;
@@ -230,7 +230,7 @@ footer {
   }
 
   h1 {
-    font-size: 95px;
+    font-size: calc(5rem + 1vw);
     font-weight: bold;
     margin-top: -125px;
     margin-left: 40px;
@@ -281,7 +281,7 @@ footer {
   body {
     background: green;
   }
-  
+
   header {
     padding-top: 30px;
     padding-left: 40px;
@@ -319,7 +319,7 @@ footer {
   }
 
   h1 {
-    font-size: 120px;
+    font-size: calc(6rem + 1vw);
     font-weight: bold;
     margin-top: -325px;
     margin-left: 40px;
@@ -399,7 +399,7 @@ footer {
   }
 
   h1 {
-    font-size: 130px;
+    font-size: calc(7.5rem + 1vw);
     margin-top: -370px;
     margin-left: 95px;
     line-height: 1;
@@ -438,4 +438,4 @@ footer {
   #photo6 {
     margin-right: 50px;
   }
-}*/
+}
