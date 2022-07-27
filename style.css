@@ -5,6 +5,7 @@ html {
 /* Syntax for screen height found here on 23.07.22: https://www.freecodecamp.org/news/html-page-width-height/#:~:text=For%20a%20responsive%20full%20page%20height%2C%20set%20the,100%25%20over%20100vw%20to%20avoid%20surprise%20horizontal%20scrollbars.*/
 body {
   min-height: 100vh;
+  font-size: 1rem;
 }
 
 header {
@@ -20,12 +21,16 @@ header {
 }
 
 #photo1 {
-  height: 120px;
+  /*height: 120px;*/
+  width: 25%;
+  max-width: 137px;
   margin-left: -40px;
 }
 
 #photo2 {
-  height: 173px;
+  /*height: 173px;*/
+  width: 40%;
+  max-width: 173px;
   margin-bottom: -55px;
   margin-right: 5px;
 }
@@ -33,7 +38,8 @@ header {
 h1 {
   color: #32f5c8;
   font-family: "Sen", sans-serif;
-  font-size: 55px;
+  /*font-size: 55px;*/
+  font-size: 3.5rem;
   font-weight: bold;
   margin-top: -20px;
   margin-left: 15px;
@@ -43,7 +49,8 @@ h1 {
 p {
   color: #a9bdc6;
   font-family: "Inter", sans-serif;
-  font-size: 24px;
+  /*font-size: 24px;*/
+  font-size: 1.5rem;
 }
 
 #description {
@@ -66,7 +73,8 @@ button {
 }
 
 #photo3 {
-  height: 190px;
+  /*height: 190px;*/
+  width: 40%;
   margin-top: -30px;
   margin-left: 210px;
 }
