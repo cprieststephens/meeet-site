@@ -296,17 +296,17 @@ footer {
   }
 
   #photo2 {
-    margin-top: -40px;
-    margin-left: 500px;
+    margin-top: -60px;
+    margin-left: 130px;
   }
 
   #container3 {
     display: grid;
-    column-gap: 75px;
+    column-gap: 10px;
     grid-template-columns: 125px 125px;
-    grid-template-rows: 125px 125px 125px;
-    margin-top: -75px;
-    margin-left: 550px;
+    grid-template-rows: 35px 35px 35px 35px 35px;
+    margin-top: 0px;
+    margin-left: 450px;
   }
 
   #photo4 {
@@ -324,8 +324,8 @@ footer {
   h1 {
     font-size: calc(6rem + 1vw);
     font-weight: bold;
-    margin-top: -325px;
-    margin-left: 40px;
+    margin-top: -125px;
+    margin-left: 50px;
     line-height: 1;
   }
 
@@ -333,7 +333,8 @@ footer {
   }
 
   #description {
-    width: 460px;
+    width: 48%;
+    font-size: calc(1rem + 1vw);
     margin-left: 45px;
   }
   button {
@@ -346,9 +347,10 @@ footer {
   }
 
   #photo3 {
-    width: 141px;
-    margin-top: -285px;
-    margin-left: 350px;
+    width: 17%;
+    max-width: 141px;
+    margin-top: -280px;
+    margin-left: 530px;
   }
 
   #container4 {
