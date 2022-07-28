@@ -370,40 +370,40 @@ footer {
 
   #photo1 {
     margin-top: -30px;
-    margin-left: 0;
+    margin-left: -20px;
   }
 
   #photo2 {
     margin-top: -75px;
-    margin-left: 700px;
+    margin-left: 300px;
   }
 
   #container3 {
     display: grid;
-    column-gap: 110px;
+    column-gap: 90px;
     grid-template-columns: 125px 125px;
     grid-template-rows: 125px 125px 125px;
     margin-top: -35px;
-    margin-left: 665px;
+    margin-left: 685px;
   }
 
   #photo4 {
     width: 124px;
     grid-row: 1 / 1;
     grid-column: 1 / 1;
-    margin-top: -65px;
+    margin-top: -115px;
   }
 
   #photo5 {
     width: 119px;
     grid-row: 3 / 3;
     grid-column: 2 / 2;
-    margin-top: -55px;
+    margin-top: -105px;
   }
 
   h1 {
-    font-size: calc(rem + 1vw);
-    margin-top: -370px;
+    font-size: calc(7.5rem + 1vw);
+    margin-top: -450px;
     margin-left: 95px;
     line-height: 1;
   }
@@ -412,7 +412,8 @@ footer {
   }
 
   #description {
-    width: 460px;
+    width: 55%;
+    font-size: calc(1rem + 1vw);
     margin-top: 15px;
   }
 
@@ -429,7 +430,7 @@ footer {
   #photo3 {
     width: 141px;
     margin-top: -280px;
-    margin-left: 135px;
+    margin-left: 670px;
   }
 
   #container4 {
@@ -439,6 +440,6 @@ footer {
   }
 
   #photo6 {
-    margin-right: 50px;
+    margin-right: 180px;
   }
 }
