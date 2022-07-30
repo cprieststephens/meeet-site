@@ -416,16 +416,19 @@ footer {
     margin-top: -450px;
     margin-left: 95px;
     line-height: 1;
+    position: absolute;
   }
 
   #description {
-    width: 55%;
+    width: 48%;
     font-size: calc(1rem + 1vw);
-    margin-top: 25px;
+    margin-top: -150px;
+    margin-left: 105px;
+    position: absolute;
   }
 
-  #description,
   button {
+    margin-top: -30px;
     margin-left: 105px;
   }
 
@@ -436,8 +439,6 @@ footer {
 
   #photo3 {
     width: 141px;
-    margin-top: -280px;
-    margin-left: 670px;
   }
 
   #container4 {
