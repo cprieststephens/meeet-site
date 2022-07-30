@@ -2,9 +2,7 @@ html {
   background: #013243;
 }
 
-/* Syntax for screen height found here on 23.07.22: https://www.freecodecamp.org/news/html-page-width-height/#:~:text=For%20a%20responsive%20full%20page%20height%2C%20set%20the,100%25%20over%20100vw%20to%20avoid%20surprise%20horizontal%20scrollbars.*/
 body {
-  min-height: 100vh;
   font-size: 1rem;
 }
 
@@ -50,8 +48,9 @@ p {
 }
 
 #description {
-  padding-left: 15px;
-  padding-top: 15px;
+  padding-left: 10px;
+  padding-top: 5px;
+  margin-bottom: 50px;
 }
 
 button {
@@ -64,14 +63,13 @@ button {
   font-family: "Inter", sans-serif;
   font-size: x-large;
   font-weight: bolder;
-  margin-top: 30px;
   margin-left: 15px;
   position: absolute;
 }
 
 #photo3 {
   width: 190px;
-  margin-top: 90px;
+  margin-top: 60px;
   margin-left: 210px;
 }
 
@@ -147,23 +145,25 @@ footer {
     font-weight: bold;
     margin-top: -125px;
     margin-left: 40px;
+    position: absolute;
   }
 
   #description {
     width: 55%;
     font-size: calc(1rem + 1vw);
-    margin-top: 20px;
+    margin-top: 80px;
     margin-left: 40px;
+    position: absolute;
   }
 
   button {
-    margin-left: 40px;
-    margin-top: 50px;
+    margin-top: 200px;
+    margin-left: 50px;
   }
 
   #photo3 {
     width: 130px;
-    margin-top: -140px;
+    margin-top: 20px;
     margin-left: 410px;
   }
 
@@ -177,7 +177,7 @@ footer {
   }
 
   #twitter {
-    margin-left: 40px;
+    margin-left: 30px;
   }
 
   #follow {
@@ -185,8 +185,10 @@ footer {
   }
 
   #photo6 {
-    width: 249px;
+    width: 50%;
+    max-width: 200px;
     margin-top: 100px;
+    margin-left: 30px;
   }
 }
 
@@ -243,6 +245,7 @@ footer {
     font-size: calc(1rem + 1vw);
     margin-top: 20px;
     margin-left: 35px;
+    margin-bottom: 0;
   }
 
   button {
@@ -329,9 +332,6 @@ footer {
     line-height: 1;
   }
 
-  #overlap {
-  }
-
   #description {
     width: 48%;
     font-size: calc(1rem + 1vw);
@@ -410,13 +410,10 @@ footer {
     line-height: 1;
   }
 
-  #overlap {
-  }
-
   #description {
     width: 55%;
     font-size: calc(1rem + 1vw);
-    margin-top: 15px;
+    margin-top: 25px;
   }
 
   #description,
