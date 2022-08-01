@@ -2,6 +2,7 @@ html {
   background: #013243;
 }
 
+/*Syntax for font-size found here on 27.07.22: https://blog.hubspot.com/website/responsive-text*/
 body {
   font-size: 1rem;
 }
@@ -11,6 +12,7 @@ header {
   padding-left: 15px;
 }
 
+/*Syntax for grid layout found here on 14.07.22: https://www.w3schools.com/css/css_grid.asp*/
 #container2 {
   padding-top: 50px;
   padding-left: 20px;
@@ -99,10 +101,6 @@ footer {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 685px) {
-  body {
-    background: yellow;
-  }
-
   header {
     padding-top: 40px;
     padding-left: 40px;
@@ -118,7 +116,6 @@ footer {
     margin-left: 100px;
   }
 
-  /*Syntax for grid layout found here on 14.07.22: https://www.w3schools.com/css/css_grid.asp*/
   #container3 {
     display: grid;
     column-gap: 30px;
@@ -189,10 +186,6 @@ footer {
 }
 
 @media only screen and (min-width: 686px) and (max-width: 767px) {
-  body {
-    background: red;
-  }
-
   header {
     padding-top: 40px;
     padding-left: 40px;
@@ -281,10 +274,6 @@ footer {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1050px) {
-  body {
-    background: green;
-  }
-
   header {
     padding-top: 30px;
     padding-left: 40px;
@@ -356,11 +345,11 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 75px;
+    margin-top: 0px;
   }
 
   #photo6 {
-    margin-top: 200px;
+    margin-top: 50px;
     margin-right: 50px;
   }
 }
@@ -427,6 +416,10 @@ footer {
   footer {
     margin-top: 200px;
     margin-left: 85px;
+  }
+
+  #follow {
+    white-space: nowrap;
   }
 
   #photo3 {
