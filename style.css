@@ -87,7 +87,7 @@ footer {
 
 /*Syntax for media queries found here on 12.07.22: https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
 
-@media only screen and (min-width: 350px) and (max-width: 599px) {
+@media only screen and (min-width: 350px) and (max-width: 413px) {
   #container2 {
     padding-top: 30px;
     padding-left: 20px;
@@ -95,8 +95,29 @@ footer {
     grid-template-columns: 50% 50%;
   }
 
+  #photo2 {
+    width: 160px;
+    grid-column: 2 / 2;
+  }
+
+  h1 {
+    color: #32f5c8;
+    font-family: "Sen", sans-serif;
+    font-size: calc(2.5rem + 1vw);
+    font-weight: bold;
+    margin-top: -35px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+  }
+
+  p {
+    color: #a9bdc6;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+
   #description {
-    padding-left: 10px;
+    padding-left: 15px;
     padding-top: 5px;
     margin-bottom: 30px;
   }
@@ -117,8 +138,8 @@ footer {
 
   #photo3 {
     width: 150px;
-    margin-top: 40px;
-    margin-left: 170px;
+    margin-top: 45px;
+    margin-left: 180px;
   }
 }
 
@@ -140,7 +161,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 685px) {
+@media only screen and (min-width: 414px) and (max-width: 685px) {
   header {
     padding-top: 40px;
     padding-left: 40px;
