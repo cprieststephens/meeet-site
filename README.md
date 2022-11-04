@@ -1,4 +1,4 @@
-<img src="img\Meeet_Landing_Page.png" width="200px"/>
+<img src="img\Meeet_Landing_Page.png" width="400px"/>
 
 - Project Title: Meeet Waitlist Codewell Challenge
 - Author: Camilla Priest-Stephens
