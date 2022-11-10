@@ -2,7 +2,6 @@ html {
   background: #013243;
 }
 
-/*Syntax for font-size found here on 27.07.22: https://blog.hubspot.com/website/responsive-text*/
 body {
   font-size: 1rem;
 }
@@ -12,7 +11,6 @@ header {
   padding-left: 15px;
 }
 
-/*Syntax for grid layout found here on 14.07.22: https://www.w3schools.com/css/css_grid.asp*/
 #container2 {
   padding-top: 50px;
   padding-left: 20px;
@@ -30,7 +28,6 @@ header {
   grid-column: 2 / 2;
 }
 
-/*Syntax for font-size found here on 27.07.22: https://blog.hubspot.com/website/responsive-text*/
 h1 {
   color: #32f5c8;
   font-family: "Sen", sans-serif;
@@ -85,9 +82,10 @@ footer {
   margin-left: 15px;
 }
 
-/*Syntax for media queries found here on 12.07.22: https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
+/*Media queries*/
 
-@media only screen and (min-width: 350px) and (max-width: 413px) {
+/*Mobile screens*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   #container2 {
     padding-top: 30px;
     padding-left: 20px;
@@ -161,7 +159,316 @@ footer {
   }
 }
 
-@media only screen and (min-width: 414px) and (max-width: 685px) {
+/*Tablet screens*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  header {
+    padding-top: 40px;
+    padding-left: 40px;
+  }
+
+  #photo1 {
+    margin-top: -20px;
+    margin-left: 0;
+  }
+
+  #photo2 {
+    margin-top: -90px;
+    margin-left: 100px;
+  }
+
+  #container3 {
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: 125px 125px;
+    grid-template-rows: 35px 35px 35px 35px 35px;
+    margin-left: 400px;
+  }
+
+  #photo4 {
+    width: 124px;
+    grid-row: 1 / 3;
+    grid-column: 1 / 1;
+  }
+
+  #photo5 {
+    display: none;
+  }
+
+  h1 {
+    font-size: calc(4.5rem + 1vw);
+    font-weight: bold;
+    margin-top: -125px;
+    margin-left: 40px;
+    position: absolute;
+  }
+
+  #description {
+    width: 60%;
+    font-size: calc(1rem + 1vw);
+    margin-top: 80px;
+    margin-left: 40px;
+    position: absolute;
+  }
+
+  button {
+    margin-top: 200px;
+    margin-left: 50px;
+  }
+
+  #photo3 {
+    width: 130px;
+    margin-top: 20px;
+    margin-left: 400px;
+  }
+
+  #container4 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  footer {
+    margin-top: 320px;
+  }
+
+  #twitter {
+    margin-left: 30px;
+  }
+
+  #follow {
+    white-space: nowrap;
+  }
+
+  #photo6 {
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 30px;
+  }
+}
+
+/*Laptops/small screens*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  header {
+    padding-top: 30px;
+    padding-left: 40px;
+  }
+
+  #photo1 {
+    margin-left: 0px;
+    margin-bottom: -20px;
+  }
+
+  #photo2 {
+    margin-top: -60px;
+    margin-left: 130px;
+  }
+
+  #container3 {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 125px 125px;
+    grid-template-rows: 35px 35px 35px 35px 35px;
+    margin-top: 0px;
+    margin-left: 450px;
+  }
+
+  #photo4 {
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+  }
+
+  #photo5 {
+    grid-row: 3 / 3;
+    grid-column: 2 / 2;
+  }
+
+  h1 {
+    font-size: calc(6rem + 1vw);
+    font-weight: bold;
+    margin-top: -125px;
+    margin-left: 50px;
+    line-height: 1;
+    position: absolute;
+  }
+
+  #description {
+    width: 48%;
+    font-size: calc(1rem + 1vw);
+    margin-top: 125px;
+    margin-left: 45px;
+    position: absolute;
+  }
+
+  button {
+    margin-top: 250px;
+    margin-left: 60px;
+  }
+
+  footer {
+    margin-top: 300px;
+    margin-left: 45px;
+  }
+
+  #photo3 {
+    width: 141px;
+    margin-top: 40px;
+    margin-left: 550px;
+  }
+
+  #container4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0px;
+  }
+
+  #photo6 {
+    margin-top: 40px;
+    margin-right: 50px;
+  }
+}
+
+/*Desktops/large screens*/
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  header {
+    padding-top: 30px;
+    padding-left: 95px;
+  }
+
+  #photo1 {
+    margin-top: -30px;
+    margin-left: -20px;
+  }
+
+  #photo2 {
+    margin-top: -75px;
+    margin-left: 300px;
+  }
+
+  #container3 {
+    display: grid;
+    column-gap: 90px;
+    grid-template-columns: 125px 125px;
+    grid-template-rows: 125px 125px 125px;
+    margin-top: -35px;
+    margin-left: 685px;
+  }
+
+  #photo4 {
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+    margin-top: -115px;
+  }
+
+  #photo5 {
+    grid-row: 3 / 3;
+    grid-column: 2 / 2;
+    margin-top: -105px;
+  }
+
+  h1 {
+    font-size: calc(7.5rem + 1vw);
+    margin-top: -450px;
+    margin-left: 95px;
+    line-height: 1;
+    position: absolute;
+  }
+
+  #description {
+    width: 48%;
+    font-size: calc(1rem + 1vw);
+    margin-top: -150px;
+    margin-top: -150px;
+    margin-left: 105px;
+    position: absolute;
+  }
+
+  button {
+    margin-top: -30px;
+    margin-left: 105px;
+  }
+
+  footer {
+    margin-top: 200px;
+    margin-left: 85px;
+  }
+
+  #follow {
+    white-space: nowrap;
+  }
+
+  #photo3 {
+    margin-top: -150px;
+    margin-left: 700px;
+  }
+
+  #container4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #photo6 {
+    margin-right: 150px;
+  }
+}
+
+/*@media only screen and (min-width: 350px) and (max-width: 413px) {
+  #container2 {
+    padding-top: 30px;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  #photo2 {
+    width: 160px;
+    grid-column: 2 / 2;
+  }
+
+  h1 {
+    color: #32f5c8;
+    font-family: "Sen", sans-serif;
+    font-size: calc(2.5rem + 1vw);
+    font-weight: bold;
+    margin-top: -35px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+  }
+
+  p {
+    color: #a9bdc6;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+  }
+
+  #description {
+    padding-left: 15px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+  }
+
+  button {
+    height: 60px;
+    width: 275px;
+    border-radius: 5px;
+    border-style: none;
+    background: #32f5c8;
+    color: #013243;
+    font-family: "Inter", sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-left: 15px;
+    position: absolute;
+  }
+
+  #photo3 {
+    width: 150px;
+    margin-top: 45px;
+    margin-left: 180px;
+  }
+}*/
+
+/*@media only screen and (min-width: 414px) and (max-width: 685px) {
   header {
     padding-top: 40px;
     padding-left: 40px;
@@ -332,9 +639,9 @@ footer {
     margin-top: 120px;
     margin-left: 55px;
   }
-}
+}*/
 
-@media only screen and (min-width: 768px) and (max-width: 1050px) {
+/*@media only screen and (min-width: 768px) and (max-width: 1050px) {
   header {
     padding-top: 30px;
     padding-left: 40px;
@@ -413,9 +720,9 @@ footer {
     margin-top: 40px;
     margin-right: 50px;
   }
-}
+}*/
 
-@media only screen and (min-width: 1050px) {
+/*@media only screen and (min-width: 1050px) {
   header {
     padding-top: 30px;
     padding-left: 95px;
@@ -497,4 +804,4 @@ footer {
   #photo6 {
     margin-right: 150px;
   }
-}
+}*/
