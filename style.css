@@ -136,12 +136,10 @@ footer {
     font-weight: bold;
     margin-top: -120px;
     margin-left: 40px;
-    /*position: absolute;*/
   }
 
   #description {
     width: 60%;
-    /*font-size: calc(1rem + 1vw);*/
     font-size: 1.5rem;
     margin-top: 20px;
     margin-left: 40px;
@@ -271,7 +269,7 @@ footer {
 
 /*Desktops/large screens*/
 
-@media only screen and (min-width: 1025px) /*and (max-width: 1441px) */ {
+@media only screen and (min-width: 1025px) {
   header {
     padding-top: 30px;
     padding-left: 95px;
