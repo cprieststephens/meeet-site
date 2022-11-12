@@ -1,4 +1,4 @@
-/*Mobile screens (up to 480px)*/
+/*Mobile screens: up to 480px*/
 
 html {
   background: #013243;
@@ -84,17 +84,10 @@ footer {
   margin-left: 15px;
 }
 
-/*To hide photos on smaller screens*/
-
 @media only screen and (max-width: 481px) {
   #photo4,
+  #photo5,
   #photo6 {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  #photo5 {
     display: none;
   }
 }
@@ -122,7 +115,7 @@ footer {
     column-gap: 30px;
     grid-template-columns: 125px 125px;
     grid-template-rows: 35px 35px 35px 35px 35px;
-    margin-top: -50px;
+    margin-top: -40px;
     margin-left: 350px;
   }
 
@@ -139,35 +132,37 @@ footer {
   }
 
   h1 {
-    font-size: calc(4.5rem + 1vw);
+    font-size: calc(5.5rem + 1vw);
     font-weight: bold;
-    margin-top: -100px;
+    margin-top: -120px;
     margin-left: 40px;
-    position: absolute;
+    /*position: absolute;*/
   }
 
   #description {
     width: 60%;
-    font-size: calc(1rem + 1vw);
-    margin-top: 110px;
+    /*font-size: calc(1rem + 1vw);*/
+    font-size: 1.5rem;
+    margin-top: 20px;
     margin-left: 40px;
     position: absolute;
   }
 
   button {
-    margin-top: 220px;
+    margin-top: 150px;
     margin-left: 50px;
   }
 
   #photo3 {
     width: 130px;
-    margin-top: 60px;
-    margin-left: 70%;
+    margin-top: -20px;
+    margin-left: 75%;
   }
 
   #container4 {
     display: flex;
     flex-direction: row;
+    margin-top: -15px;
   }
 
   footer {
@@ -276,7 +271,7 @@ footer {
 
 /*Desktops/large screens*/
 
-@media only screen and (min-width: 1025px) and (max-width: 1441px) {
+@media only screen and (min-width: 1025px) /*and (max-width: 1441px) */ {
   header {
     padding-top: 30px;
     padding-left: 95px;
