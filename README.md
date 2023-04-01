@@ -1,8 +1,8 @@
 # Meeet 
 
-I built this project using HTML and CSS in order to practise grid, flexbox and responsive web design.
-
 <img src="img\Meeet_Landing_Page.png" width="400px"/>
+
+I built this project using HTML and CSS in order to practise grid, flexbox and responsive web design.
 
 GitHub Pages link: https://cprieststephens.github.io/meeet-site/
 
